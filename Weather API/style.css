@@ -1,0 +1,27 @@
+body{
+	background-image: url('sky.jpg');
+	background-size: cover;
+	font-family: Londrina Sketch;
+}
+
+#location{
+	margin-top: 70px;
+	font-size: 70px;
+}
+
+div h1,h2,p{
+	text-align: center;
+	color: #FDFFFC;
+	font-size: 25px;
+}
+
+#temp{
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+  color: white;
+  padding: 50px 55px;
+	cursor: pointer;
+}
+p{
+	font-size: 30px;
+}
