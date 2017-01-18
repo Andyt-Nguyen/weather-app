@@ -12,7 +12,7 @@ $(document).ready(function(){
 		$('#lat').text("Latitude: " + lat);
 
 		//Current Weather Data
-		var apiKey = 'a4fcb2af4c3e8404740fe72b07552771';
+		var apiKey = '-------------';
 		var url = 'http://api.openweathermap.org/data/2.5/weather?lat='+ lat +'&lon='+ lon +'&units=imperial&appid='+ apiKey;
 		$.getJSON(url, function(data){
 			var fTemp = data.main.temp + "F";
